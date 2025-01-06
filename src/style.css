@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --rosa-claro: #e11364;
+    --rosa-oscuro: #bc105c;
+    --blanco: #fafafb;
+    --color-boton: #2c8f20;
+    --color-footer: #e96093;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+    background-color: var(--rosa-claro);
+}
+
+header {
+    background-color: var(--rosa-oscuro);
+    color: var(--blanco);
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+    border-left: 5px solid var(--blanco);
+    border-right: 5px solid var(--blanco);
+    font-family: 'poppins', sans-serif;
+}
+
+main {
+    background-color: var(--rosa-oscuro);
+    border: 1px solid var(--rosa-oscuro);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+h2 {
+    color: var(--blanco);
+    font-family: 'poppins', sans-serif;
+    font-size: 1rem;
+    margin: 15px 0;
+}
+
+article {
+    padding: 5px;
+    background-color: var(--blanco);
+    border: 1px solid var(--blanco);
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+main {
+    margin: 30px 0;
+}
+
+h3 {
+    color: var(--rosa-oscuro);
+    font-family: 'poppins', sans-serif;
+    font-size: 1rem;
+    text-align: end;
+    border-bottom: 1px dotted var(--rosa-oscuro);
+    margin: 10px 0;
+}
+
+p {
+    font-size: 1rem;
+    margin: 5px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    border: none;
+    background-color: var(--color-boton);
+    color: var(--blanco);
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.carrito {
+    text-align: center;
+}
+
+.carrito > button > a {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+footer {
+    background-color: var(--color-footer);
+    color: var(--blanco);
+    border-radius: 5px;
+    height: 3rem;
+    text-align: center;
+    line-height: 3rem;
+    margin: 15px 0;
+}

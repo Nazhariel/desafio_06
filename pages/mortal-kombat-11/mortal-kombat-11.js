@@ -1,0 +1,1 @@
+import '../../src/estilo-1-mortal-kombat.css'

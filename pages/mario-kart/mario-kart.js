@@ -1,0 +1,1 @@
+import '../../src/estilo-1-mario-kart-deluxe.css'
