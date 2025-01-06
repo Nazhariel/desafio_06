@@ -23,13 +23,11 @@ body {
 
 header {
     background-color: var(--rosa-oscuro);
-    color: var(--blanco);
     margin: 10px 0;
     padding: 10px;
     text-align: center;
     border-left: 5px solid var(--blanco);
     border-right: 5px solid var(--blanco);
-    font-family: 'poppins', sans-serif;
 }
 
 main {
@@ -39,11 +37,19 @@ main {
     padding: 10px;
 }
 
+h1 {
+    font-family: 'poppins', sans-serif;
+    color: var(--blanco);
+    font-size: 3rem;
+    font-weight: 500;
+}
+
 h2 {
     color: var(--blanco);
     font-family: 'poppins', sans-serif;
-    font-size: 1rem;
+    font-size: 1.4rem;
     margin: 15px 0;
+    font-weight: 500;
 }
 
 article {
@@ -81,6 +87,12 @@ a {
     display: inline-block;
     padding: 10px;
     text-decoration: none;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+a:hover{
+    background-color: var(--rosa-oscuro);
 }
 
 .carrito {
@@ -104,4 +116,8 @@ footer {
     text-align: center;
     line-height: 3rem;
     margin: 15px 0;
+}
+
+footer > p {
+    font-size: 0.5rem;
 }

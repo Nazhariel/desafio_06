@@ -1,1 +1,1 @@
-import '../../src/estilo-1-mario-kart-deluxe.css'
+import '../../src/estilos-1-mario-kart-deluxe.css'
